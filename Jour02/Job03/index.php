@@ -6,7 +6,7 @@
     <title>Formulaire GET</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="" method="post">
         <label for="name">Nom :</label>
         <input type="text" id="name" name="name"><br><br>
         <label for="email">Email :</label>
@@ -20,6 +20,6 @@
 
 <?php
 
-var_dump($_GET);
+var_dump($_POST);
 
 ?>
