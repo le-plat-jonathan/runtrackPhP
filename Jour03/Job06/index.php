@@ -21,6 +21,7 @@ function leetSpeak($str) {
     ];
     
     $result = '';
+    
     for ($i = 0; $i < myStrLen($str); $i++) {
         $char = $str[$i];
         if (isset($leet[$char])) {
