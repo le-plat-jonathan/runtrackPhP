@@ -1,0 +1,16 @@
+.tableau {
+    margin: auto;
+    border-collapse: collapse;
+}
+td {
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 6rem;
+    border: 1px solid black;
+}
+
+.grid {
+    text-align: center;
+}
